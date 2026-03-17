@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Tarefa</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+    <style>
+    table { 
+        border-collapse: collapse; 
+        width: 100%; 
+        table-layout: fixed;
+        margin: 0;
+    }
+    th {
+        width: 13%;
+    }
+    th:first-child {
+        width: 90px;
+    }
+    th, td { 
+        border: 1px solid #696969; 
+        padding: 5px; 
+    }
+    tbody td {
+        height: 100px;
+        padding: 5px; 
+        text-align: right;
+        vertical-align: top;
+    }
+    .task {
+        font-size: 13px;
+        text-align: left;
+        font-family: 'Courier New', Courier, monospace;
+        white-space: pre-line; 
+        word-break: break-word; 
+        overflow-wrap: break-word;
+    }
+    .container {
+        display: flex;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 20px auto;
+        align-items: stretch; 
+    }
+    .calendar-div {
+        flex: 3;
+    }
+    .side-container {
+        flex: 1; 
+        border: 3px solid rgb(30, 191, 212);
+        border-radius: 5px;
+        padding: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: white;
+    }
+    .side-container h2 {
+        margin-top: 0;
+        color: black;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="calendar-div">
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>DOM</th>
+                        <th>SEG</th>
+                        <th>TER</th>
+                        <th>QUA</th>
+                        <th>QUI</th>
+                        <th>SEX</th>
+                        <th>SAB</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I</td>
+                        <td>
+                            <div>1</div>
+                            <div class="task">fazer isso 3 vezes ao dia com o quebra linha 
+                                que eu coloquei agora fazer 
+                            </div>
+                        </td>
+                        <td>
+                            <div>2</div>
+                        </td>
+                        <td>
+                            <div>3</div>
+                            <div class="task"> comer pao</div>
+                        </td>
+                        <td>
+                            <div>4</div>
+                        </td>
+                        <td>
+                            <div>5</div>
+                        </td>
+                        <td>
+                            <div>6</div>
+                            <div class="task">My birthday!!</div>
+                        </td>
+                        <td>
+                            <div>7</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>II</td>
+                        <td>
+                            <div>8</div>
+                        </td>
+                        <td>
+                            <div>9</div>
+                        </td>
+                        <td>
+                            <div>10</div>
+                        </td>
+                        <td>
+                            <div>11</div>
+                        </td>
+                        <td>
+                            <div>12</div>
+                        </td>
+                        <td>
+                            <div>13</div>
+                        </td>
+                        <td>
+                            <div>14</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>III</td>
+                        <td>
+                            <div>15</div>
+                        </td>
+                        <td>
+                            <div>16</div>
+                        </td>
+                        <td>
+                            <div>17</div>
+                            <div class="task">assa</div>
+                        </td>
+                        <td>
+                            <div>18</div>
+                        </td>
+                        <td>
+                            <div>19</div>
+                        </td>
+                        <td>
+                            <div>20</div>
+                        </td>
+                        <td>
+                            <div>21</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IV</td>
+                        <td>
+                            <div>22</div>
+                        </td>
+                        <td>
+                            <div>23</div>
+                        </td>
+                        <td>
+                            <div>24</div>
+                        </td>
+                        <td>
+                            <div>25</div>
+                        </td>
+                        <td>
+                            <div>26</div>
+                        </td>
+                        <td>
+                            <div>27</div>
+                        </td>
+                        <td>
+                            <div>28</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>
+                            <div>29</div>
+                            <div class="task">My beloved's birthday!!</div>
+                        </td>
+                        <td>
+                            <div>30</div>
+                        </td>
+                        <td>
+                            <div>31</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="side-container">
+            <h2>Anotações</h2>
+            <p>Qualquer Anotacao</p>
+        </div>
+
+    </div>
+</body>
+</html>
