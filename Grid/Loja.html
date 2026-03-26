@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            gap: 15px;
+        }
+
+        #hero {
+            display: grid;
+            grid-template-columns: 1fr 120px;
+            gap: 15px;
+            height: 150px;
+        }
+
+        #hero .banner {
+            background-color: #222;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        #hero .banner h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        #hero .carrinho {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+
+        #mineral {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 130px;
+            gap: 15px;
+        }
+
+        .coluna {
+            display: grid;
+            gap: 15px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .card .imagem {
+            width: 100%;
+            height: 70px;
+            background-color: #ddd;
+            margin-bottom: 8px;
+            border-radius: 4px;
+        }
+
+        .card p {
+            font-size: 13px;
+        }
+
+        .lateral {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 13px;
+        }
+
+        .lateral p {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .lateral ul {
+            list-style: none;
+        }
+
+        .lateral ul li {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        #destaque {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        #destaque .card-grande {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            height: 140px;
+        }
+
+        #destaque .card-grande h3 {
+            margin-bottom: 8px;
+        }
+
+        #rodape {
+            background-color: #222;
+            color: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        #rodape input {
+            padding: 8px;
+            border-radius: 4px;
+            border: none;
+            margin-right: 8px;
+            width: 220px;
+        }
+
+        #rodape button {
+            padding: 8px 16px;
+            background-color: #555;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <section id="hero">
+        <div class="banner">
+            <h1>Loja Online</h1>
+            <p>Os melhores produtos</p>
+        </div>
+        <div class="carrinho">🛒</div>
+    </section>
+
+    <section id="mineral">
+        <div class="coluna">
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 1</p>
+            </div>
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 2</p>
+            </div>
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 3</p>
+            </div>
+        </div>
+
+        <div class="coluna">
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 4</p>
+            </div>
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 5</p>
+            </div>
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 6</p>
+            </div>
+        </div>
+
+        <div class="coluna">
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 7</p>
+            </div>
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 8</p>
+            </div>
+            <div class="card">
+                <div class="imagem"></div>
+                <p>Produto 9</p>
+            </div>
+        </div>
+
+        <div class="lateral">
+            <p>Categorias</p>
+            <ul>
+                <li>Categoria A</li>
+                <li>Categoria B</li>
+                <li>Categoria C</li>
+                <li>Categoria D</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="destaque">
+        <div class="card-grande">
+            <h3>Produto em Destaque 1</h3>
+            <p>Descrição do produto aqui</p>
+        </div>
+        <div class="card-grande">
+            <h3>Produto em Destaque 2</h3>
+            <p>Descrição do produto aqui</p>
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <input type="text" placeholder="Digite seu e-mail">
+        <button>Enviar</button>
+    </footer>
+
+</div>
+
+</body>
+</html>
