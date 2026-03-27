@@ -4,210 +4,98 @@
     <meta charset="UTF-8">
     <title>Blog Pessoal</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
             padding: 20px;
         }
 
-        .container {
-            display: grid;
-            gap: 15px;
-        }
-
         #cabecalho {
             background-color: #333;
             color: white;
-            padding: 30px;
-            border-radius: 8px;
+            padding: 20px;
             text-align: center;
-        }
-
-        #cabecalho h1 {
-            font-size: 28px;
-            margin-bottom: 5px;
-        }
-
-        #cabecalho p {
-            font-size: 14px;
-            color: #aaa;
+            margin-bottom: 15px;
         }
 
         #conteudo {
-            display: grid;
-            grid-template-columns: 1fr 250px;
+            display: flex;
             gap: 15px;
         }
 
         .posts {
-            display: grid;
-            gap: 15px;
+            flex: 1;
         }
 
         .post {
             background-color: white;
             border: 1px solid #ccc;
-            border-radius: 8px;
-            padding: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
         }
 
-        .post .imagem-post {
-            width: 100%;
-            height: 150px;
-            background-color: #ddd;
-            border-radius: 4px;
-            margin-bottom: 12px;
-        }
-
-        .post h2 {
-            font-size: 18px;
-            margin-bottom: 8px;
-        }
-
-        .post p {
-            font-size: 13px;
-            color: #555;
-            line-height: 1.5;
-        }
-
-        .post .data {
-            font-size: 12px;
-            color: #999;
-            margin-top: 10px;
-        }
-
-        /* sidebar */
         .sidebar {
-            display: grid;
-            gap: 15px;
-            align-content: start;
+            width: 220px;
         }
 
         .widget {
             background-color: white;
             border: 1px solid #ccc;
-            border-radius: 8px;
             padding: 15px;
+            margin-bottom: 15px;
         }
 
-        .widget h3 {
-            font-size: 15px;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 6px;
-        }
 
-        .widget ul {
-            list-style: none;
-        }
-
-        .widget ul li {
-            font-size: 13px;
-            padding: 5px 0;
-            border-bottom: 1px solid #f0f0f0;
-            color: #444;
-        }
-
-        .widget .foto-perfil {
-            width: 70px;
-            height: 70px;
-            background-color: #ddd;
-            border-radius: 50%;
-            margin: 0 auto 10px;
-        }
-
-        .widget p {
-            font-size: 13px;
-            text-align: center;
-            color: #555;
-        }
-
-        /* rodape */
-        #rodape {
-            background-color: #333;
-            color: white;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            font-size: 13px;
-        }
     </style>
 </head>
 <body>
 
-<div class="container">
+<div id="cabecalho">
+    <h1>Meu Blog</h1>
+    <p>Página pessoal</p>
+</div>
 
-    <header id="cabecalho">
-        <h1>Meu Blog</h1>
-        <p>Página pessoal</p>
-    </header>
+<div id="conteudo">
 
-    <section id="conteudo">
-
-        <div class="posts">
-            <div class="post">
-                <div class="imagem-post"></div>
-                <h2>Meu primeiro post</h2>
-                <p>Texto do post aqui.</p>
-                <p class="data">01/03/2025</p>
-            </div>
-
-            <div class="post">
-                <div class="imagem-post"></div>
-                <h2>Aprendendo HTML e CSS</h2>
-                <p>Texto do post aqui.</p>
-                <p class="data">10/03/2025</p>
-            </div>
-
-            <div class="post">
-                <div class="imagem-post"></div>
-                <h2>O que é CSS Grid?</h2>
-                <p>Texto do post aqui.</p>
-                <p class="data">18/03/2025</p>
-            </div>
+    <div class="posts">
+        <div class="post">
+            <h2>Meu primeiro post</h2>
+            <p>Texto do post aqui.</p>
+            <p>01/03/2025</p>
         </div>
 
-        <aside class="sidebar">
+        <div class="post">
+            <h2>Aprendendo HTML e CSS</h2>
+            <p>Texto do post aqui.</p>
+            <p>10/03/2025</p>
+        </div>
 
-            <div class="widget">
-                <div class="foto-perfil"></div>
-                <h3 style="text-align: center; border: none;">Sobre mim</h3>
-                <p>Estudante de desenvolvimento web.</p>
-            </div>
+        <div class="post">
+            <h2>O que é CSS Grid?</h2>
+            <p>Texto do post aqui.</p>
+            <p>18/03/2025</p>
+        </div>
+    </div>
 
-            <div class="widget">
-                <h3>Categorias</h3>
-                <ul>
-                    <li>Tecnologia</li>
-                    <li>Design</li>
-                    <li>Programação</li>
-                    <li>Dicas</li>
-                </ul>
-            </div>
+    <div class="sidebar">
+        <div class="widget">
+            <h3>Sobre mim</h3>
+            <p>Estudante de desenvolvimento web.</p>
+        </div>
 
-            <div class="widget">
-                <h3>Posts recentes</h3>
-                <ul>
-                    <li>Meu primeiro post</li>
-                    <li>Aprendendo HTML e CSS</li>
-                    <li>O que é CSS Grid?</li>
-                </ul>
-            </div>
-
-        </aside>
-    </section>
-
-    <footer id="rodape">
-        <p>© 2025 Meu Blog</p>
-    </footer>
+        <div class="widget">
+            <h3>Categorias</h3>
+            <ul>
+                <li>Tecnologia</li>
+                <li>Design</li>
+                <li>Programação</li>
+            </ul>
+        </div>
+    </div>
 
 </div>
+
+
 
 </body>
 </html>
