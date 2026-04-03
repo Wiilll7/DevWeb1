@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de JS - Parte 1</title>
+</head>
+<body>
+    <script lang="javascript" type="text/javascript">
+ 
+        var nome
+        var idade
+        var endereco
+        var cep
+        var cpf
+ 
+        document.write("<h2>Exercicio 1: Dados Pessoais</h2>");
+ 
+        nome    = prompt("Digite seu nome:", "seu nome");
+        idade   = Number(prompt("Digite sua idade:", "0"));
+        endereco = prompt("Digite seu endereco:", "seu endereco");
+        cep     = prompt("Digite seu CEP:", "00000-000");
+        cpf     = prompt("Digite seu CPF:", "000.000.000-00");
+ 
+        document.write("<p><strong>Nome:</strong> "     + nome     + "</p>");
+        document.write("<p><strong>Idade:</strong> "    + idade    + "</p>");
+        document.write("<p><strong>Endereco:</strong> " + endereco + "</p>");
+        document.write("<p><strong>CEP:</strong> "      + cep      + "</p>");
+        document.write("<p><strong>CPF:</strong> "      + cpf      + "</p>");
+ 
+        var numero1
+        var numero2
+        var numero3
+        var maiorNumero
+ 
+        document.write("<hr>");
+        document.write("<h2>Exercicio 2: Maior Numero</h2>");
+ 
+        numero1 = Number(prompt("Digite o primeiro numero:", "0"));
+        numero2 = Number(prompt("Digite o segundo numero:", "0"));
+        numero3 = Number(prompt("Digite o terceiro numero:", "0"));
+ 
+        maiorNumero = numero1;
+ 
+        if (numero2 > maiorNumero) {
+            maiorNumero = numero2;
+        }
+ 
+        if (numero3 > maiorNumero) {
+            maiorNumero = numero3;
+        }
+ 
+        if (numero1 === numero2 && numero2 === numero3) {
+            document.write("<p>Os tres numeros sao iguais: " + numero1 + ".</p>");
+        } else {
+            document.write("<p>O maior numero e: " + maiorNumero + ".</p>");
+        }
+ 
+        var idadeVoto
+ 
+        document.write("<hr>");
+        document.write("<h2>Exercicio 3: Verificacao de Voto</h2>");
+ 
+        idadeVoto = Number(prompt("Digite sua idade para verificar situacao de voto:", "18"));
+ 
+        if (idadeVoto < 16) {
+            document.write("<p>Nao vota.</p>");
+        } else if ((idadeVoto >= 16 && idadeVoto <= 17) || idadeVoto > 70) {
+            document.write("<p>Voto opcional.</p>");
+        } else {
+            document.write("<p>Voto obrigatorio.</p>");
+        }
+ 
+    </script>
+</body>
+</html
