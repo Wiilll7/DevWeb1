@@ -1,0 +1,132 @@
+section {
+    margin-bottom: 20px;
+}
+
+/* Banner Principal */
+.banner-box {
+    border: 1px solid #000;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Seção 1 - Caixas Pequenas */
+.caixa-pequena {
+    border: 1px solid #000;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Seção 2 - Caixas Médias */
+.caixa-media {
+    border: 1px solid #000;
+    padding: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Ícones Inferiores */
+.icone-box {
+    border: 1px solid #000;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.produto-imagem-principal {
+    border: 1px solid #000;
+    padding: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Informações ao lado da imagem (Título, preço, botão) */
+.produto-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px; /* Dá um respiro entre a imagem e o texto */
+}
+
+/* Miniaturas menores abaixo da imagem principal */
+.produto-miniatura {
+    border: 1px solid #000;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 10px; /* Separa uma miniatura da outra */
+}
+
+/* Tabela de Avaliações */
+.tabela-avaliacoes {
+    width: 100%;
+    border-collapse: collapse; /* Junta as bordas duplicadas da tabela */
+    margin-top: 10px;
+}
+
+/* Células e cabeçalhos da tabela */
+.tabela-avaliacoes th, 
+.tabela-avaliacoes td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Espaçamento padrão para os blocos da página do produto */
+.produto-avaliacoes,
+.produto-duvidas {
+    margin-top: 30px;
+}
+/* --- TELA 2: NOTÍCIA / ARTIGO --- */
+
+/* Espaçamento entre as seções da página de notícia */
+.noticia-conteudo,
+.noticia-comentarios-lista,
+.noticia-comentarios-form {
+    margin-bottom: 30px;
+}
+
+/* Imagem da notícia */
+.noticia-imagem {
+    border: 1px solid #000;
+    padding: 30px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Informações ao lado da imagem (Título e texto inicial) */
+.noticia-cabecalho {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px; /* Respiro entre a imagem e o título */
+}
+
+/* Restante dos parágrafos da notícia */
+.noticia-texto {
+    margin-top: 15px;
+    line-height: 1.5; /* Melhora a leitura do texto */
+}
+
+/* Tabela de Comentários */
+.tabela-comentarios {
+    width: 100%;
+    border-collapse: collapse; /* Remove o espaço duplo entre as bordas */
+    margin-top: 10px;
+}
+
+/* Células da tabela de comentários */
+.tabela-comentarios th,
+.tabela-comentarios td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo básico para os campos do formulário (Opcional, mas deixa mais organizado) */
+.form-input,
+.form-textarea {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.btn-enviar {
+    padding: 5px 15px;
+    cursor: pointer;
+}
