@@ -7,16 +7,16 @@ $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'home';
 
 switch ($pagina) {
     case 'home':
-        include 'home.php';
+        include 'home/home.php';
         break;
     case 'tela1':
-        include 'tela1.php';
+        include 'produto/produto.php';
         break;
     case 'tela2':
-        include 'tela2.php';
+        include 'artigo/artigo.php';
         break;
     default:
-        include 'home.php';
+        include 'home/home.php';
         break;
 }
 

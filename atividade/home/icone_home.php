@@ -1,0 +1,1 @@
+<div class="icone-box">[x]</div>
