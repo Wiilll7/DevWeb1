@@ -15,28 +15,28 @@
         <h3>AVALIACOES</h3>
         <table class="tabela-avaliacoes">
             <tr>
-                <th>Critério A</th>
-                <th>Critério B</th>
+                <th>Criterio A</th>
+                <th>Criterio B</th>
                 <th>Nota</th>
             </tr>
             <tr>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
+                <td> texto </td>
+                <td> texto </td>
+                <td> texto </td>
             </tr>
             <tr>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
+                <td> texto </td>
+                <td> texto </td>
+                <td> texto </td>
             </tr>
         </table>
     </section>
 
     <section class="produto-duvidas">
-        <h3>DÚVIDAS</h3>
+        <h3>DUVIDAS</h3>
         <form action="" method="post">
-            <textarea rows="3" cols="50" placeholder="Escreva sua dúvida..."></textarea>
-            <button type="submit">→</button>
+            <textarea rows="3" cols="50" placeholder="Escreva sua duvida"></textarea>
+            <button type="submit">Enviar</button>
         </form>
     </section>
 </article>
