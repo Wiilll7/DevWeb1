@@ -1,6 +1,6 @@
     <section class="produto-avaliacoes">
         <h3>AVALIACOES</h3>
-        <table class="tabela-avaliacoes">
+        <table class="tabela-padrao">
             <tr>
                 <th>Criterio A</th>
                 <th>Criterio B</th>

@@ -1,1 +1,1 @@
-<div class="icone-box">[x]</div>
+<div class="caixa-borda caixa-icone">[x]</div>

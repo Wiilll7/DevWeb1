@@ -1,114 +1,56 @@
-section {
-    margin-bottom: 20px;
+section { 
+    margin-bottom: 20px; 
 }
-
-.banner-box {
-    border: 1px solid #000;
-    padding: 50px;
-    text-align: center;
-}
-
-.caixa-pequena {
-    border: 1px solid #000;
-    padding: 20px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.caixa-media {
-    border: 1px solid #000;
-    padding: 30px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.icone-box {
-    border: 1px solid #000;
-    padding: 10px;
-    display: inline-block;
-    margin-right: 5px;
-}
-.produto-imagem-principal {
-    border: 1px solid #000;
-    padding: 40px;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.produto-info {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 20px;
-}
-
-.produto-miniatura {
-    border: 1px solid #000;
-    padding: 10px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.tabela-avaliacoes {
+.tabela-padrao {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
-
-.tabela-avaliacoes th, 
-.tabela-avaliacoes td {
+.tabela-padrao th, 
+.tabela-padrao td {
     border: 1px solid #000;
     padding: 8px;
     text-align: left;
 }
-
-.produto-avaliacoes,
-.produto-duvidas {
-    margin-top: 30px;
-}
-.noticia-conteudo,
-.noticia-comentarios-lista,
-.noticia-comentarios-form {
-    margin-bottom: 30px;
-}
-
-.noticia-imagem {
+.caixa-borda {
     border: 1px solid #000;
-    padding: 30px;
     display: inline-block;
-    margin-bottom: 15px;
 }
-
-.noticia-cabecalho {
+.caixa-icone     { 
+    padding: 10px; margin-right: 5px; 
+}
+.caixa-miniatura { 
+    padding: 10px; margin-right: 10px; 
+}
+.caixa-pequena   { 
+    padding: 20px; margin-right: 10px; 
+}
+.caixa-media     { 
+    padding: 30px; margin-right: 10px; 
+}
+.caixa-imagem    { 
+    padding: 40px; margin-bottom: 10px; 
+}
+.caixa-banner    { 
+    padding: 50px; text-align: center; display: block; 
+}
+.info-lateral {
     display: inline-block;
     vertical-align: top;
     margin-left: 20px;
 }
-
-.noticia-texto {
-    margin-top: 15px;
-    line-height: 1.5;
+.mt-30 { 
+    margin-top: 30px; 
 }
-
-.tabela-comentarios {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
+.mb-30 { 
+    margin-bottom: 30px; 
 }
-
-.tabela-comentarios th,
-.tabela-comentarios td {
-    border: 1px solid #000;
-    padding: 8px;
-    text-align: left;
+.texto-padrao { 
+    margin-top: 15px; line-height: 1.5; 
 }
-
-.form-input,
-.form-textarea {
-    margin-top: 5px;
-    padding: 5px;
+.form-campo   { 
+    margin-top: 5px; padding: 5px; 
 }
-
-.btn-enviar {
-    padding: 5px 15px;
-    cursor: pointer;
+.btn-enviar   { 
+    padding: 5px 15px; cursor: pointer; 
 }

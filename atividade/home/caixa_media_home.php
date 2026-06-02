@@ -1,1 +1,1 @@
-<div class="caixa-media"> <?php echo $nome ?? ''; ?></div>
+<div class="caixa-borda caixa-media"> <?php echo $nome ?? ''; ?></div>

@@ -9,10 +9,10 @@ switch ($pagina) {
     case 'home':
         include 'home/home.php';
         break;
-    case 'tela1':
+    case 'produto':
         include 'produto/produto.php';
         break;
-    case 'tela2':
+    case 'artigo':
         include 'artigo/artigo.php';
         break;
     default:

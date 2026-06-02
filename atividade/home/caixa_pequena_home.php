@@ -1,1 +1,1 @@
-<div class="caixa-pequena"><?php echo $nome ?? '' ?></div>
+<div class="caixa-borda caixa-pequena"><?php echo $nome ?? '' ?></div>

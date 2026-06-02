@@ -1,1 +1,1 @@
-<div class="banner-box">IMAGEM</div>
+<div class="caixa-borda caixa-banner">IMAGEM</div>

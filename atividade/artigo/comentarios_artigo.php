@@ -1,6 +1,6 @@
 <section class="noticia-comentarios-lista">
     <h3>COMENTARIOS</h3>
-    <table class="tabela-comentarios">
+    <table class="tabela-padrao">
         <tr>
             <th>Usuario</th>
             <th>Mensagem</th>
