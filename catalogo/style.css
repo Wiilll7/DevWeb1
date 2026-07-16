@@ -1,0 +1,62 @@
+section {
+    margin-bottom: 30px;
+}
+
+.tabela-padrao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabela-padrao th,
+.tabela-padrao td {
+    border: 1px solid var(--muted-border-color);
+    padding: 8px;
+    text-align: left;
+}
+
+.caixa-borda {
+    border: 1px solid var(--muted-border-color);
+    border-radius: var(--border-radius);
+    display: block;
+    overflow: hidden;
+}
+
+.caixa-imagem {
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted-color);
+}
+
+.caixa-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-lateral {
+    padding: 10px 0;
+}
+
+.form-campo {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-enviar {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.banner-principal {
+    text-align: center;
+    padding: 40px 20px;
+    background: var(--card-background-color);
+    border-radius: var(--border-radius);
+}
+
+.produto-detalhes .grid {
+    align-items: start;
+}
